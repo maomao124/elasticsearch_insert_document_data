@@ -1,0 +1,72 @@
+2022-05-25 21:14:44.016  INFO 6848 --- [main] asticsearchInsertDocumentDataApplication : Starting ElasticsearchInsertDocumentDataApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 6848 (H:\程序\大三下期\elasticsearch插入文档数据\target\elasticsearch_insert_document_data-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\elasticsearch插入文档数据\target)
+2022-05-25 21:14:44.019 DEBUG 6848 --- [main] asticsearchInsertDocumentDataApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 21:14:44.020  INFO 6848 --- [main] asticsearchInsertDocumentDataApplication : The following 1 profile is active: "dev"
+2022-05-25 21:14:44.194  INFO 5392 --- [main] asticsearchInsertDocumentDataApplication : Starting ElasticsearchInsertDocumentDataApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 5392 (H:\程序\大三下期\elasticsearch插入文档数据\target\elasticsearch_insert_document_data-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\elasticsearch插入文档数据\target)
+2022-05-25 21:14:44.197 DEBUG 5392 --- [main] asticsearchInsertDocumentDataApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 21:14:44.198  INFO 5392 --- [main] asticsearchInsertDocumentDataApplication : The following 1 profile is active: "dev"
+2022-05-25 21:14:45.534  INFO 6848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-25 21:14:45.551  INFO 6848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-25 21:14:45.552  INFO 6848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 21:14:45.677  INFO 6848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-25 21:14:45.677  INFO 6848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1589 ms
+2022-05-25 21:14:45.716  INFO 5392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-25 21:14:45.728  INFO 5392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-25 21:14:45.729  INFO 5392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 21:14:45.819  INFO 5392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-25 21:14:45.820  INFO 5392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1527 ms
+2022-05-25 21:14:46.679  INFO 6848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-25 21:14:46.694  INFO 6848 --- [main] asticsearchInsertDocumentDataApplication : Started ElasticsearchInsertDocumentDataApplication in 3.524 seconds (JVM running for 4.086)
+2022-05-25 21:14:48.708  INFO 15580 --- [main] asticsearchInsertDocumentDataApplication : Starting ElasticsearchInsertDocumentDataApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 15580 (H:\程序\大三下期\elasticsearch插入文档数据\target\elasticsearch_insert_document_data-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\elasticsearch插入文档数据\target)
+2022-05-25 21:14:48.711 DEBUG 15580 --- [main] asticsearchInsertDocumentDataApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 21:14:48.712  INFO 15580 --- [main] asticsearchInsertDocumentDataApplication : The following 1 profile is active: "dev"
+2022-05-25 21:14:49.846  INFO 15580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-25 21:14:49.858  INFO 15580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-25 21:14:49.858  INFO 15580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 21:14:49.951  INFO 15580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-25 21:14:49.951  INFO 15580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2022-05-25 21:14:50.807  WARN 15580 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-25 21:14:50.813  INFO 15580 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-25 21:14:50.836  INFO 15580 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-25 21:14:50.858 ERROR 15580 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-25 21:15:06.790  INFO 13072 --- [main] asticsearchInsertDocumentDataApplication : Starting ElasticsearchInsertDocumentDataApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 13072 (H:\程序\大三下期\elasticsearch插入文档数据\target\elasticsearch_insert_document_data-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\elasticsearch插入文档数据\target)
+2022-05-25 21:15:06.793 DEBUG 13072 --- [main] asticsearchInsertDocumentDataApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-25 21:15:06.794  INFO 13072 --- [main] asticsearchInsertDocumentDataApplication : The following 1 profile is active: "dev"
+2022-05-25 21:15:08.018  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-25 21:15:08.029  INFO 13072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-25 21:15:08.029  INFO 13072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 21:15:08.108  INFO 13072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-25 21:15:08.108  INFO 13072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2022-05-25 21:15:09.060  WARN 13072 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-25 21:15:09.067  INFO 13072 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-25 21:15:09.096  INFO 13072 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-25 21:15:09.116 ERROR 13072 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
